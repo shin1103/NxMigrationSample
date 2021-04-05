@@ -1,0 +1,25 @@
+{
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*",
+    "tsconfig.base.json": "*"
+  },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "nx-migration-sample-app",
+  "projects": {
+    "NxMigrationSampleApp": {
+      "tags": []
+    },
+    "NxMigrationSampleApp-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "NxMigrationSampleApp"
+      ]
+    }
+  }
+}
